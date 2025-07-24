@@ -85,7 +85,7 @@ This choice tailors instructions accordingly.
 After deployment, you’ll get:
 
 MCP endpoint URL, e.g.:
-https://mcp.getknit.dev/<your-secure-server-token>/sse
+https://mcp.getknit.dev/{your-secure-server-token}/sse
 
 Step 6: Connect Your AI Agent
 Using JSON config or directly through official MCP clients
@@ -94,7 +94,7 @@ Using JSON config or directly through official MCP clients
 {
   "mcpServers": {
     "Knit": {
-      "url": "https://mcp.getknit.dev/<your-secure-server-token>/sse"
+      "url": "https://mcp.getknit.dev/{your-secure-server-token}/sse"
     }
   }
 }
