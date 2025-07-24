@@ -94,6 +94,7 @@ Use the Authorization or X-Knit-Token header when connecting your client.
 Step 6: Connect Your AI Agent
 Using JSON config (e.g., for OpenAI clients)
 
+```
 {
   "mcpServers": {
     "Knit": {
@@ -105,13 +106,16 @@ Using JSON config (e.g., for OpenAI clients)
     }
   }
 }
+```
 
 
 Or run via CLI (example for Claude Remote)
 
+```
 mcp-remote \
   --url https://mcp.getknit.dev/agents/<your-server-id>/sse \
   --header "Authorization: Bearer <YOUR_SERVER_TOKEN>"
+```
 
 Once connected, your AI will see defined tools and can start invoking them (e.g., getEmployee, createInvoice).
 
