@@ -88,7 +88,7 @@ MCP endpoint URL, e.g.:
 https://mcp.getknit.dev/<your-secure-server-token>/sse
 
 Step 6: Connect Your AI Agent
-Using JSON config (e.g., for OpenAI clients)
+Using JSON config or directly through official MCP clients
 
 ```
 {
